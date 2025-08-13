@@ -1,0 +1,14 @@
+let color = ["red", "green", "blue"]   // defining a list of colors
+let color_number = 1  // this number is represntation for an index
+
+switch color_number {
+case 0:
+    print(color[0])
+case 1:
+   print (color[1])
+case 2:
+   print (color[2])
+   
+default :
+   print ("wiht")  
+}
