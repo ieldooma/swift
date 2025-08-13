@@ -1,0 +1,11 @@
+var weekdayes = ["sunday", "monday", "friday"] 
+var ages = [25, 26, 30]
+
+weekdayes.append("wednesday")
+
+ages.append(40) // adding element at the end of the array
+ages[2] = 13 // replacing the third elemnt of the array
+ages.insert (44, at : 2) // inserting an item at index 2 with the value of 44
+
+  print(ages)
+print(weekdayes)
