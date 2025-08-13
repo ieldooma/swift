@@ -1,0 +1,10 @@
+var items = ["banana" : 2, "apple" : 3, "dates": 4]
+
+items["mango"] = 1 //adding new value
+items["apple"] = 14 // editing excsting value
+
+print(items)
+
+items["mango"] = nil // removing value
+
+print(items)
