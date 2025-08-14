@@ -1,0 +1,10 @@
+class Car {  // defining the class
+    var name = "honda"
+    var color = "red"
+    var intro : String {
+        "hello there the car \(name) with the color \(color) is nice"
+    }
+}
+var mycar = Car()
+print(mycar.intro)
+
